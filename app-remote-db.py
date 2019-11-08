@@ -322,4 +322,4 @@ def calc_strat_returns(dff):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8080)
+    app.run_server(debug=True, host='0.0.0.0')
